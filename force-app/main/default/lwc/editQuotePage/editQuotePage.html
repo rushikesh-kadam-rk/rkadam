@@ -1,9 +1,31 @@
 <!-- Edit Quote Page -->
 <template>
-  <div class="slds-tabs_card">
-    <c-quote-total-summary></c-quote-total-summary>
-    <div class="slds-m-around_medium">
-      <c-edit-quote record-id={recordId}></c-edit-quote>
+  <template lwc:if={isAccessAllowed}>
+    <div class="slds-tabs_card">
+      <!--Adjust Quote Button START-->
+      <c-quote-total-summary onadjustquote={handleAdjustQuote}></c-quote-total-summary>
+      <!--Adjust Quote Button END-->
+      <!--Quote Start and End Date Details START-->
+      <div class="slds-m-around_medium">
+        <c-edit-quote record-id={recordId} onerror={handleError}></c-edit-quote>
+      </div>
+      <!--Quote Start and End Date Details END-->
     </div>
-  </div>
+    <div>
+      <!--Adjust Quote Price Dialog START-->
+      <template lwc:if={isAdjustButtonClicked}>
+        <c-adjust-quote-price onclose={handleCloseModal} onamountchange={handleAmountChange}></c-adjust-quote-price>
+      </template>
+      <!--Adjust Quote Price Dialog END-->
+      
+    </div>
+    <!--Currency Input Component-->
+    <c-currency-input></c-currency-input>
+  </template>
+  <template lwc:else>
+    <div class="slds-tabs_card">
+      {labels.ACCESS_ERROR}
+    </div>
+  </template>
+  
 </template>

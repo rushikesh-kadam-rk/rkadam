@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Save_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save_Button</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Button</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Adjust_Quote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adjust_Quote</shortDescription>
+        <value>Adjust quote</value>
+    </labels>
+    <labels>
+        <fullName>Adjust_Quote_Price</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adjust_Quote_Price</shortDescription>
+        <value>Adjust quote price</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Greeting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote_Greeting</shortDescription>
+        <value>Welcome to quote ##QUOTENAME!</value>
+    </labels>
+    <labels>
+        <fullName>Start_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Start_Date</shortDescription>
+        <value>Start Date</value>
+    </labels>
+    <labels>
+        <fullName>End_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>End_Date</shortDescription>
+        <value>End Date</value>
+    </labels>
+    <labels>
+        <fullName>Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>Success_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success_Message</shortDescription>
+        <value>Saved Quote Details</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Message</shortDescription>
+        <value>Quote Details not updated Successfully</value>
+    </labels>
+    <labels>
+        <fullName>Adjusted_Amount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adjusted_Amount</shortDescription>
+        <value>Adjusted Amount</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Adjusted_Amount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote_Adjusted_Amount</shortDescription>
+        <value>Quote Adjusted Amount</value>
+    </labels>
+    <labels>
+        <fullName>Mismatch_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mismatch_Error</shortDescription>
+        <value>Please enter the amount upto 2 decimal places.</value>
+    </labels>
+    <labels>
+        <fullName>Access_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access_Error</shortDescription>
+        <value>Opps! Seems like something is not right!</value>
+    </labels>
+    <labels>
+        <fullName>Currency_Component</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Currency_Component</shortDescription>
+        <value>Currency Component</value>
+    </labels>
+    <labels>
+        <fullName>Select_Currency</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_Currency</shortDescription>
+        <value>Select Currency</value>
+    </labels>
+    <labels>
+        <fullName>Enter_Amount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enter_Amount</shortDescription>
+        <value>Enter Amount</value>
+    </labels>
+</CustomLabels>

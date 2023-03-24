@@ -1,0 +1,36 @@
+<template>
+    <lightning-card title={labels.CURRENCY_COMPONENT} 
+      icon-name="custom:custom14">
+        <lightning-layout multiple-rows>
+            <lightning-layout-item size="4" padding="around-medium">
+                <div class="row">
+                    <!--Dropdown to select Currency Code From Available List-->
+                    <lightning-combobox
+                        name="currency"
+                        label={labels.SELECT_CURRENCY}
+                        value={selectedCurrencyCode}
+                        placeholder={labels.SELECT_CURRENCY}
+                        options={currencyOptions} 
+                        onchange={handleCurrencyOptionsChange}>
+                    </lightning-combobox>
+                </div>
+                <!--Amount Input-->
+                <div class="row">
+                    <lightning-input name="amount" 
+                        label={labels.ENTER_AMOUNT} value={amount}
+                        onchange={handleAmountChange}>
+                    </lightning-input>
+                </div>
+                <!--Section to show Currency Value with its Symbol-->
+                <div class="row slds-p-top_small">
+                    <lightning-formatted-number 
+                        value={amount} 
+                        format-style="currency" 
+                        currency-code={selectedCurrencyCode} 
+                        currency-display-as="symbol">
+                    </lightning-formatted-number>
+                </div>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>
